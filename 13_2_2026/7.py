@@ -1,0 +1,5 @@
+a1 = float(input())
+a2 = float(input())
+a3 = float(input())
+print((a1 + a2 + a3)/3)
+print((a1 + a2)*2 - (a3*3))

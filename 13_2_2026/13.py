@@ -1,0 +1,6 @@
+amount = int(input("Amount: "))
+price = float(input("Price for amount: "))
+new_amount = int(input("Desired amount: "))
+money = int(input("Money: "))
+print("Price of desired amount: " + str( (price/amount)*new_amount ))
+print("Able to buy: " + str( money/(price/amount) ))
