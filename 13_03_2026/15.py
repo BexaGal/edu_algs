@@ -1,3 +1,4 @@
+print("HELLO!!!")
 size = int(input("Enter matrix size: "))
 arr = []
 for i in range(size):
